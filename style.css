@@ -1,0 +1,107 @@
+
+/*Sélectionne toutes les balises de typer <p>*/
+p  
+{
+	color: brown;	
+/*Definition de la taille du texte px, em ou cm*/
+	font-size: 1em;
+	font-family : "Courier New", serif;
+	text-align: justify;/*Ne marche que sur les balises blocks comme <p><div>etc..*/
+}
+/*Pour les liens*/
+a:visited{color: blue;}
+
+/*Pour les pté class des balises */
+
+.description
+{color : green;
+}
+
+.i
+{color : violet;
+}
+
+.mask
+{
+background: rgba(0,0,0,.5);
+position : absolute; 
+top:0;
+left:0;
+right:0;
+bottom:0;
+display:block;
+z-index:2;
+background-attachment:scroll; 
+}
+.background
+{
+background-image: url("image/th.jpg");
+background-attachment:fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 1;
+position : absolute; 
+top:0;
+left:0;
+right:0;
+bottom:0;
+display:block;
+
+
+}
+.content
+{	z-index:5;
+position : absolute; 
+top:0;
+left:0;
+right:0;
+bottom:0;
+display:block;
+
+
+}
+
+
+/*Selctionne toutes les balises*/
+
+h2
+{
+	color : black;
+}
+
+/*Pour une balise à l'intérieure d'une autre */
+figure figcaption
+{
+	color : orange;
+}
+
+h3
+{
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+/*.imageflottante
+{
+	float:right;
+	opacity : 1;
+	Clear pour que le texte n entoure plus le flotant 
+}*/
+
+/*FONT-SIZE
+ * xx-small: minuscule ;
+x-small: très petit ;
+small: petit ;
+medium: moyen ;
+large: grand ;
+x-large: très grand ;
+xx-large: euh… gigantesque*/
+
+/*Border
+ * border-...
+ * box-shadow
+ * text-shadow*/
+
+/*balise:hover quand on survol avec la souris */

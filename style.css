@@ -38,7 +38,7 @@ background-attachment:scroll;
 background-image: url("image/th.jpg");
 background-attachment:fixed;
 background-position: center;
-background-repeat: no-repeat;
+background-repeat: repeat-y;
 background-size: cover;
 z-index: 1;
 position : absolute; 
@@ -51,13 +51,14 @@ display:block;
 
 }
 .content
-{	z-index:5;
+{
+z-index:5;
 position : absolute; 
-top:0;
 left:0;
 right:0;
 bottom:0;
 display:block;
+top:0;
 
 
 }
